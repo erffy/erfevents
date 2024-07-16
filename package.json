@@ -1,0 +1,28 @@
+{
+  "name": "erfevents",
+  "description": "A Map-based Smartest and Fastest EventEmitter module",
+  "version": "2024.7.16",
+  "author": "erffy",
+  "repository": {
+    "url": "git://github.com/erffy/erfevents.git"
+  },
+  "scripts": {
+    "postinstall": "tsc && echo 'You can safely ignore the error messages above.'",
+    "start": "node src/index",
+    "clear": "rm -rf src"
+  },
+  "main": "src/index.js",
+  "exports": {
+    "default": "./src/index.js",
+    "types": "./global.d.ts"
+  },
+  "dependencies": {
+    "@sapphire/shapeshift": "4.0"
+  },
+  "peerDependencies": {
+    "typescript": "5.5"
+  },
+  "devDependencies": {
+    "@types/node": "latest"
+  }
+}

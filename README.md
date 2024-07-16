@@ -54,4 +54,4 @@ console.log(seeDetails.emitted); // or ee.isEmitted(seeDetails)
 
 <br>
 
-[![Alt](https://repobeats.axiom.co/api/embed/7fd6fff744f52025aa6b5218d6c6e8f638c13aa4.svg)](https://github.com/erffy/erfevents)
+[![Alt](https://repobeats.axiom.co/api/embed/aaf316fd98d23592333591c94e7defc17fc235fb.svg)](https://github.com/erffy/erfevents)

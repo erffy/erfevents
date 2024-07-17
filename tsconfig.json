@@ -20,6 +20,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "pretty": true,
+    "noEmitOnError": true,
     "resolveJsonModule": true
   },
   "exclude": [

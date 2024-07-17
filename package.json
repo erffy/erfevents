@@ -1,14 +1,13 @@
 {
   "name": "erfevents",
   "description": "A Map-based Smartest and Fastest EventEmitter module",
-  "version": "2024.7.17",
+  "version": "2024.7.18-rc1",
   "author": "erffy",
   "repository": {
     "url": "git://github.com/erffy/erfevents.git"
   },
   "scripts": {
     "postinstall": "tsc",
-    "start": "node src/index",
     "clear": "rm -rf src"
   },
   "main": "src/index.js",

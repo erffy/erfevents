@@ -28,7 +28,7 @@ export default class EventEmitter<T extends EventRegistry<T> = EventRegistryMap>
     Validator.number(emitLimit);
 
     if (!this._events.has(name)) this._events.set(name, new Set());
-
+    // @ts-ignore
     this._events.get(name)!.add(this.constructor.decorate(listener, { emitLimit, emitTimes: 0 }));
 
     return this;
@@ -76,10 +76,11 @@ export default class EventEmitter<T extends EventRegistry<T> = EventRegistryMap>
     if (!this._events.has(event)) return false;
 
     for (const listener of this._events.get(event)!) {
+      // @ts-ignore
       if (listener.emitTimes >= listener.emitLimit) continue;
 
       listener(...args);
-
+      // @ts-ignore
       this.constructor.decorate(listener, { emitted: true, emitTimes: ++listener.emitTimes });
     }
 

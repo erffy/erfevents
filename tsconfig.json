@@ -21,7 +21,6 @@
     "emitDecoratorMetadata": true,
     "pretty": true,
     "noEmitOnError": false,
-    "suppressImplicitAnyIndexErrors": true,
     "resolveJsonModule": true
   },
   "exclude": [

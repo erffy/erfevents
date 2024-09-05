@@ -9,6 +9,7 @@
 - 🖥️ Versatile Compatibility: Supports ESM and CJS, ensuring seamless integration with modern JavaScript environments.
 
 ### Installation
+Note: Before installation, you need to install 'typescript' globally with the package manager you use.
 ```sh
 npm install erffy/erfevents
 pnpm add erffy/erfevents
